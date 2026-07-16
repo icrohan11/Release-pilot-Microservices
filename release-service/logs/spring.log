@@ -1,0 +1,19 @@
+2026-07-16 08:43:27.644 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h59m19s452ms96µs700ns).
+2026-07-16 08:44:36.474 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 08:55:43.342 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m15s491ms670µs500ns).
+2026-07-16 08:58:21.965 [AsyncResolver-bootstrap-executor-%d] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-07-16 09:07:01.730 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m18s352ms292µs400ns).
+2026-07-16 09:07:12.455 [RMI TCP Connection(59)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-07-16 09:07:12.535 [RMI TCP Connection(59)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application RELEASE-SERVICE with eureka with status DOWN
+2026-07-16 09:07:12.537 [RMI TCP Connection(59)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1784173032536, current=DOWN, previous=UP]
+2026-07-16 09:07:12.537 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RELEASE-SERVICE/LTIN708523.cts.com:release-service:9004: registering service...
+2026-07-16 09:07:12.585 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RELEASE-SERVICE/LTIN708523.cts.com:release-service:9004 - registration status: 204
+2026-07-16 09:07:12.669 [RMI TCP Connection(59)-127.0.0.1] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-16 09:07:12.709 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-07-16 09:07:12.793 [RMI TCP Connection(59)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-16 09:07:12.828 [RMI TCP Connection(59)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-16 09:07:12.832 [RMI TCP Connection(59)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-16 09:07:12.836 [RMI TCP Connection(59)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-07-16 09:07:15.838 [RMI TCP Connection(59)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-07-16 09:07:15.853 [RMI TCP Connection(59)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_RELEASE-SERVICE/LTIN708523.cts.com:release-service:9004 - deregister  status: 200
+2026-07-16 09:07:15.854 [RMI TCP Connection(59)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

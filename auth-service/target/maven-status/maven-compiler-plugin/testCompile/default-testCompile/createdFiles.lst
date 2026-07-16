@@ -1,0 +1,4 @@
+com\cts\releasepilot\auth\controller\AuthControllerTest.class
+com\cts\releasepilot\auth\service\UserServiceImplTest.class
+com\cts\releasepilot\auth\service\AuthServiceImplTest.class
+com\cts\releasepilot\auth\controller\UserControllerTest.class

@@ -1,0 +1,3 @@
+com\cts\releasepilot\gateway\util\JwtUtil.class
+com\cts\releasepilot\gateway\filter\JwtAuthenticationGlobalFilter.class
+com\cts\releasepilot\gateway\ApiGatewayApplication.class

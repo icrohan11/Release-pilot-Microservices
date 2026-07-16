@@ -1,0 +1,19 @@
+package com.cts.releasepilot.auth;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+/**
+ * Auth Service - Identity &amp; Access Management.
+ * Handles login/registration, issues JWTs, manages users and the audit trail.
+ */
+@SpringBootApplication
+@EnableFeignClients
+public class AuthServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AuthServiceApplication.class, args);
+        System.out.println("Auth working successfully");
+    }
+}

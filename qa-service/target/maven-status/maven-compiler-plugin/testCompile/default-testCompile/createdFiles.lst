@@ -1,0 +1,7 @@
+com\cts\releasepilot\qa\client\ReleaseClientServiceTest.class
+com\cts\releasepilot\qa\controller\TestSuiteControllerTest.class
+com\cts\releasepilot\qa\service\TestExecutionServiceImplTest.class
+com\cts\releasepilot\qa\controller\TestExecutionControllerTest.class
+com\cts\releasepilot\qa\service\ReleaseGateServiceImplTest.class
+com\cts\releasepilot\qa\controller\ReleaseGateControllerTest.class
+com\cts\releasepilot\qa\service\TestSuiteServiceImplTest.class

@@ -1,0 +1,60 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: api-gateway
+  # Pull shared config (jwt.secret, auth header names) from the Config Server
+  config:
+    import: "optional:configserver:http://localhost:8888"
+  cloud:
+    gateway:
+      server:
+        webflux:
+          # Sensible global default: forward CORS + no route caching surprises
+          routes:
+            - id: auth-service
+              uri: lb://auth-service
+              predicates:
+                - Path=/auth/**,/users/**,/audit/**
+            - id: product-service
+              uri: lb://product-service
+              predicates:
+                - Path=/products/**,/milestones/**
+            - id: backlog-service
+              uri: lb://backlog-service
+              predicates:
+                - Path=/backlog/**,/sprints/**,/sprint-items/**
+            - id: release-service
+              uri: lb://release-service
+              predicates:
+                - Path=/releases/**,/patches/**,/environments/**,/promotions/**,/freezes/**
+            - id: qa-service
+              uri: lb://qa-service
+              predicates:
+                - Path=/test-suites/**,/test-executions/**,/gates/**
+            - id: communication-service
+              uri: lb://communication-service
+              predicates:
+                - Path=/release-notes/**,/advisories/**,/notifications/**
+
+# Fallback values in case the Config Server is unavailable
+jwt:
+  secret: ReleasePilotSecretKey2024@CTS@JFS@Secure
+auth:
+  header:
+    user: X-Auth-User
+    role: X-Auth-Role
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,gateway

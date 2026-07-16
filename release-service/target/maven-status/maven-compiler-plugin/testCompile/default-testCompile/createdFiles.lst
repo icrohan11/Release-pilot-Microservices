@@ -1,0 +1,11 @@
+com\cts\releasepilot\release\service\PatchDependencyServiceImplTest.class
+com\cts\releasepilot\release\controller\ReleasePackageControllerTest.class
+com\cts\releasepilot\release\service\ReleasePackageServiceImplTest.class
+com\cts\releasepilot\release\service\PromotionRequestServiceImplTest.class
+com\cts\releasepilot\release\client\ProductClientServiceTest.class
+com\cts\releasepilot\release\controller\PromotionRequestControllerTest.class
+com\cts\releasepilot\release\service\EnvironmentServiceImplTest.class
+com\cts\releasepilot\release\controller\PatchDependencyControllerTest.class
+com\cts\releasepilot\release\controller\ChangeFreezeWindowControllerTest.class
+com\cts\releasepilot\release\controller\EnvironmentControllerTest.class
+com\cts\releasepilot\release\service\ChangeFreezeWindowServiceImplTest.class

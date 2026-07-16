@@ -1,0 +1,7 @@
+com\cts\releasepilot\communication\controller\ReleaseNoteControllerTest.class
+com\cts\releasepilot\communication\client\ReleaseClientServiceTest.class
+com\cts\releasepilot\communication\service\CustomerAdvisoryServiceImplTest.class
+com\cts\releasepilot\communication\controller\CustomerAdvisoryControllerTest.class
+com\cts\releasepilot\communication\controller\NotificationControllerTest.class
+com\cts\releasepilot\communication\service\ReleaseNoteServiceImplTest.class
+com\cts\releasepilot\communication\service\NotificationServiceImplTest.class
