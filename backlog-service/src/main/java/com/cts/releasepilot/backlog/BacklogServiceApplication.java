@@ -14,5 +14,6 @@ public class BacklogServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BacklogServiceApplication.class, args);
+        System.out.println("Backlog is working successfully");
     }
 }

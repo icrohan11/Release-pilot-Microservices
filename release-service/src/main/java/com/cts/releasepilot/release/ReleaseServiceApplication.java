@@ -15,5 +15,6 @@ public class ReleaseServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ReleaseServiceApplication.class, args);
+        System.out.println("Release service is working successfully");
     }
 }
